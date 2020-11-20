@@ -1,0 +1,35 @@
+#home{
+    margin-left: 20%;
+}
+#topo{
+    display: flex;
+    align-items: center;
+
+}
+
+#topo ul li{
+    display: inline;
+    align-items: center;
+    font-size: 175%;
+    margin-left: 50pt;
+}
+
+#logo{
+    width: 15%;
+}
+
+header{
+    background-color: cornflowerblue;
+}
+
+
+/*Tira o estilo de lista e coloca ela ao lado direito da tela*/
+#searchBar{
+    list-style: none;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
