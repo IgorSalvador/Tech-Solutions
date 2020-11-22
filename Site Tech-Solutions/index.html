@@ -5,24 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Solutions</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <script type="text/javascript">
-        function slide1(){
-        document.getElementById('id').src="slide1.png";
-        setTimeout("slide2()", 1000)
-        }
-        
-        function slide2(){
-        document.getElementById('id').src="slide2.png";
-        setTimeout("slide3()", 1000)
-        }
-        
-        function slide3(){
-        document.getElementById('id').src="slide3.png";
-        setTimeout("slide1()", 1000)
-        }
-        </script>
 </head>
-<body onload="slide1()">
+<body>
     <header>
         <div id="topo">
             <img src="img/Logo-Tech-Solutions.png" alt="Tech Solutions" id="logo">
@@ -35,6 +19,5 @@
             </div>
         </div>
     </header>
-    <img id="id">
 </body>
 </html>
