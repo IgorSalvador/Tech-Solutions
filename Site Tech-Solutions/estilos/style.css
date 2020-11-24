@@ -1,5 +1,9 @@
+body{
+    background-image: url(../img/imgfundo.jpg);
+}
+
 #home{
-    margin-left: 20%;
+    margin-left: 60%;
 }
 #topo{
     display: flex;
@@ -22,6 +26,8 @@
 header{
     background-color: cornflowerblue;
     border-radius: 24pt;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
 }
 
 
@@ -68,6 +74,32 @@ a {
       margin: 2% 70% 2% 1%;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 130%;
+  }
+
+  .banner{
+    margin-left: 30%;
+    width: 1280pt;
+    height: 720pt;
+    margin: 0 auto;
+    animation: slide 10s infinite;
+    animation-direction: normal;
+  }
+
+  @keyframes slide{
+      0%, 65% {
+          background-image: url(../img/slide1.png);
+          background-repeat: no-repeat;
+      }
+
+      35%, 65% {
+          background-image: url(../img/slide2.png);
+          background-repeat: no-repeat;
+      }
+
+      70%, 100% {
+        background-image: url(../img/slide3.png);
+        background-repeat: no-repeat;
+      }
   }
 
 
