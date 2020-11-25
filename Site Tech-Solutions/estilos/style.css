@@ -3,9 +3,10 @@ body{
 }
 
 #home{
-    margin-left: 60%;
+    margin-left: 25%;
 }
 #topo{
+    margin-left: 38%;
     display: flex;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,16 +21,8 @@ body{
 }
 
 #logo{
-    width: 10%;
+    width: 32%;
 }
-
-header{
-    background-color: cornflowerblue;
-    border-radius: 24pt;
-    padding-top: 20pt;
-    padding-bottom: 20pt;
-}
-
 
 /*Tira o estilo de lista e coloca ela ao lado direito da tela*/
 #searchBar{
@@ -42,7 +35,7 @@ header{
 
 a {
     position: relative;
-    color: #fff;
+    color: #000;
     text-decoration: none;  
   }
   a:before {
@@ -66,8 +59,16 @@ a {
   }
 
   #separacao{
-      color: #fff;
+      color: #000;
       font-size: 200%;
+  }
+
+  .background{
+      background-color: orange;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding-top: 2%;
+      padding-bottom: 2%;
   }
 
   .txt{
@@ -77,12 +78,11 @@ a {
   }
 
   .banner{
-    margin-left: 30%;
-    width: 1280pt;
-    height: 720pt;
+    width: 1280px;
+    height: 720px;
     margin: 0 auto;
     animation: slide 10s infinite;
-    animation-direction: normal;
+    animation-direction: alternate;
   }
 
   @keyframes slide{
