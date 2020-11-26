@@ -64,11 +64,12 @@ a {
   }
 
   .background{
-      background-color: orange;
+      background-color: rgb(0, 110, 255);
       margin-left: 15%;
       margin-right: 15%;
       padding-top: 2%;
       padding-bottom: 2%;
+      border-radius: 30pt;
   }
 
   .txt{
@@ -83,6 +84,7 @@ a {
     margin: 0 auto;
     animation: slide 10s infinite;
     animation-direction: alternate;
+    border-radius: 30pt;
   }
 
   @keyframes slide{
